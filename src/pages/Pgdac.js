@@ -81,16 +81,19 @@ function Pgdac() {
   Note: Candidates may take note that no Demand Draft (DD) or cheque or cash will be accepted at any C-DAC training centre towards payment of any installment of course fees.
 </p></div>
           <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
-          <h1>C++ Topics</h1>
-  
-  <p id="cpp-topics"></p>
-
-  <script>
-    var cppTopics = "Getting Started, Operators & Expressions, Conditional and Looping Statements, Functions in C++, Memory Management and Pointers, OOP Concepts using C++, Constructor and Destructor, Inheritance, Polymorphism, Virtual Functions & Abstract Class, Exception Handling, Managing Console I/O Operations, File Handling in C++ & Templates, STL and RTTI";
-    
-    var cppTopicsParagraph = document.getElementById("cpp-topics");
-    cppTopicsParagraph.textContent = "C++ Topics: " + cppTopics;
-  </script></div>
+          <ul>
+  <li>C++ Programming - 72 Hours</li>
+  <li>Concepts of Operating System & Software Development Methodologies - 72 Hours</li>
+  <li>Object Oriented Programming with Java - 112 Hours</li>
+  <li>Algorithms and Data Structures (Using Java) - 72 Hours</li>
+  <li>Database Technologies - 72 Hours</li>
+  <li>Web Programming Technologies - 112 Hours</li>
+  <li>Web-based Java Programming - 104 Hours</li>
+  <li>Microsoft .Net Technologies - 84 Hours</li>
+  <li>General Aptitude & Effective Communication - 80 Hours</li>
+  <li>Project - 120 Hours</li>
+</ul>
+</div>
           <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
           <p>After completion of course students will be able to acquire the following skills:</p>
           <ul>

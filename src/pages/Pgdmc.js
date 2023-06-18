@@ -61,7 +61,20 @@ function Pgdmc() {
 <p><strong>NOTE:</strong> Candidates may take note that no Demand Draft (DD) or cheque or cash will be accepted at any C-DAC training centre towards payment of any installment of course fees.</p>
     </div>
           
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0"><CourseDropdowns/></div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+          <ul>
+  <li>OS Concepts and Linux Programming - 40 Hours</li>
+  <li>Introduction to DBMS - 60 Hours</li>
+  <li>Algorithms and Data Structures - 70 Hours</li>
+  <li>Object Oriented Programming with Java - 120 Hours</li>
+  <li>Web-Based Java Programming - 110 Hours</li>
+  <li>Mobile Programming - 160 Hours</li>
+  <li>Hybrid Mobile Apps Programming - 140 Hours</li>
+  <li>Aptitude & Effective Communication - 90 Hours</li>
+  <li>Project - 110 Hours</li>
+</ul>
+
+          </div>
           
           
           

@@ -63,3 +63,9 @@
   border-radius: 7px;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.05);
 }
+.navbar-nav .nav-link:hover,
+.dropdown-item:hover,
+.navbar-nav .nav-link:hover,
+.dropdown-item:hover .text {
+  color: orange;
+}

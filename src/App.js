@@ -20,7 +20,7 @@ function App() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav">
+              <ul className="navbar-nav ml-auto">
               <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" to="#" id="coursesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Courses
@@ -42,11 +42,27 @@ function App() {
           </li>
                 <li className="nav-item">
                   
-                  <Link className="nav-link" to="/staffregister">Staff Register</Link>
+                  <Link className="nav-link" to="/staffregister">Staff Login</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/studRegister">Student Register</Link>
+                  <Link className="nav-link" to="/studRegister">Student Login</Link>
                 </li>
+                <li className="nav-item dropdown">
+            <Link className="nav-link dropdown-toggle" to="#" id="AdminDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Admin Login
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="AdminDropdown">
+              <li>
+                <Link className="dropdown-item" to="/pgdac">Staff Register</Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" to="/pgdbda">Student Register</Link>
+              </li>
+            </ul>
+          </li>
+          <li className="nav-item ">
+              <Link className="nav-link" style={{display:"flex", justifyContent:"end"}} to="/logout">Logout</Link>
+            </li>
               </ul>
             </div>
           </div>

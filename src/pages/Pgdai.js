@@ -67,7 +67,22 @@ function Pgdai() {
   <p><b>Note:</b> Candidates may take note that no Demand Draft (DD) or cheque or cash will be accepted at any C-DAC training center towards payment of any installment of course fees.</p>
     </div>
           
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0"><CourseDropdowns/></div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+          <ul>
+  <li>Fundamental of Artificial Intelligence - 40 Hours</li>
+  <li>Mathematics for AI - 40 Hours</li>
+  <li>Java Programming - 60 Hours</li>
+  <li>Advanced Programming using Python - 90 Hours</li>
+  <li>Data Analytics - 90 Hours</li>
+  <li>Practical Machine Learning - 100 Hours</li>
+  <li>Deep Neural Networks - 90 Hours</li>
+  <li>Natural Language Processing & Computer Vision - 100 Hours</li>
+  <li>AI Compute Platforms, Applications & Trends - 110 Hours</li>
+  <li>Aptitude & Effective Communication - 90 Hours</li>
+  <li>Project - 90 Hours</li>
+</ul>
+
+          </div>
           
           
           

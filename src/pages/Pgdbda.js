@@ -102,7 +102,18 @@ MSc/MS (10+2+3+2 years) in Computer Science, IT, Electronics. OR
       </p>
     </div>
           
-          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0"><CourseDropdowns/></div>
+          <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+            <ul><li>Linux Programming and Cloud Computing - 50 Hours</li>
+  <li>Python and R Programming - 80 Hours</li>
+  <li>Object Oriented Programming with Java 8 - 90 Hours</li>
+  <li>Advanced Analytics using Statistics - 90 Hours</li>
+  <li>Data Collection and DBMS (Principles, Tools & Platforms) - 90 Hours</li>
+  <li>Big Data Technologies - 150 Hours</li>
+  <li>Data Visualization - Analysis and Reporting - 50 Hours</li>
+  <li>Practical Machine Learning - 120 Hours</li>
+  <li>Aptitude & Effective Communication - 90 Hours</li>
+  <li>Project - 90 Hours</li>
+</ul></div>
           
           
           
