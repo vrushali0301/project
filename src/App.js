@@ -1,24 +1,68 @@
-import logo from './logo.svg';
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
 import './App.css';
+import StaffRegister from './pages/StaffRegister';
+import Pgdac from './pages/Pgdac';
+import Pgdbda from './pages/Pgdbda';
+import Pgdmc from "./pages/Pgdmc";
+import StudRegister from "./pages/StudRegister";
+import Home from "./pages/Home";
+import Pgdai from "./pages/Pgdai";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div className="container">
+            <Link className="navbar-brand" to="/home">Home</Link>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <ul className="navbar-nav">
+              <li className="nav-item dropdown">
+            <Link className="nav-link dropdown-toggle" to="#" id="coursesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </Link>
+            <ul className="dropdown-menu" aria-labelledby="coursesDropdown">
+              <li>
+                <Link className="dropdown-item" to="/pgdac">PG-DAC</Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" to="/pgdbda">PG-DBDA</Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" to="/pgdmc">PG-DMC</Link>
+              </li>
+              <li>
+                <Link className="dropdown-item" to="/pgdai">PG-DAI</Link>
+              </li>
+            </ul>
+          </li>
+                <li className="nav-item">
+                  
+                  <Link className="nav-link" to="/staffregister">Staff Register</Link>
+                </li>
+                <li className="nav-item">
+                  <Link className="nav-link" to="/studRegister">Student Register</Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <Routes>
+          <Route path="/home" element={<Home/>} />
+          <Route path="/pgdac" element={<Pgdac />} />
+          <Route path="/pgdbda" element={<Pgdbda />} />
+          <Route path="/pgdmc" element={<Pgdmc/>}/>
+          <Route path="/pgdai" element={<Pgdai/>}/>
+          <Route path="/staffregister" element={<StaffRegister />} />
+          <Route path="/studRegister" element={<StudRegister />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
