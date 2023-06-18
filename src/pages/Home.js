@@ -1,10 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Nav from 'react-bootstrap/Nav';
+
 function Home() {
 
   return(
   <> <MyCarousel/> 
      <Tabs/>
+     <Footer/>
   </>
   );
 }
@@ -46,7 +47,7 @@ function Tabs(){
 	<div class="row col-12 mx-auto cp mt-5 pt-3 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
 		<ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
 		  <li class="nav-item" role="presentation">
-			<a class="nav-link rounded-top text-uppercase" id="pills-vision-tab" data-bs-toggle="pill" data-bs-target="#pills-vision" type="button" role="tab" aria-controls="pills-vision" aria-selected="false" tabindex="-1">Vision </a>
+			<a class="nav-link rounded-top text-uppercase " id="pills-vision-tab" data-bs-toggle="pill" data-bs-target="#pills-vision" type="button" role="tab" aria-controls="pills-vision" aria-selected="false" tabindex="-1">Vision </a>
 		  </li>
 		  <li class="nav-item" role="presentation">
 			<a class="nav-link active rounded-top text-uppercase" id="pills-mission-tab" data-bs-toggle="pill" data-bs-target="#pills-mission" type="button" role="tab" aria-controls="pills-mission" aria-selected="true">Mission</a>
@@ -57,7 +58,7 @@ function Tabs(){
 		 
 		</ul>
 		<div class="tab-content h-content rounded" id="pills-tabContent">
-		  <div class="tab-pane fade" id="pills-vision" role="tabpanel" aria-labelledby="pills-vision-tab" tabindex="0">
+		  <div class="tab-pane fade p-5" style={{backgroundColor:'lightgray', width:"100"}} id="pills-vision" role="tabpanel" aria-labelledby="pills-vision-tab" tabindex="0">
 		  	<h4>Our Vision &amp; Value</h4>
 			
 		  	<h5> Our Vision</h5>			
@@ -86,7 +87,7 @@ function Tabs(){
 			</ul>
 			
 		  </div>
-		  <div class="tab-pane fade show active" id="pills-mission" role="tabpanel" aria-labelledby="pills-mission-tab" tabindex="0">
+		  <div class="tab-pane fade show active p-5" style={{backgroundColor:'lightgray', width:"100"}} id="pills-mission" role="tabpanel" aria-labelledby="pills-mission-tab" tabindex="0">
 		  	<h4>Mission Mode Programme</h4>
 		  	<p>C-DAC with its focus in Advanced Computing is uniquely positioned to establish dependable and secure Exascale Ecosystem offering services in various domains.  C-DAC has crafted its strategic practical roadmap keeping in perspective the paradigm shift in the global technological ecosystem and ever-dynamic area of national ICT scenario. Accordingly, the roadmap has been devised with four-pronged approach based on the Core as HPC &amp; Cloud., viz. Futuristic Research, Applied R&amp;D, Applications and Services covering 28 thrust areas. Towards realisation of the roadmap, mission mode programmes were evolved to research, develop and deliver the futuristic technologies/solutions. </p>
 			
@@ -94,24 +95,24 @@ function Tabs(){
 			
 			<div class="row">
 				<div class="col-md-3 col-sm-12 text-center">
-					<img src="img/exascale.png" alt="Exascale" class="border border-5 shadow rounded-circle border-white"/><br/><h6 class="my-3">Exascale Computing Mission</h6>
+					<img src="https://cdac.in/img/exascale.png" alt="Exascale" class="border border-5 shadow rounded-circle border-white"/><br/><h6 class="my-3">Exascale Computing Mission</h6>
 				</div>
 				
 				<div class="col-md-3 col-sm-12 text-center">
-					<img src="img/quantom.png" alt="Quantum Computing" class="border border-5 shadow rounded-circle border-white"/><br/><h6 class="my-3">Quantum Computing Mission</h6>	
+					<img src="https://cdac.in/img/quantom.png" alt="Quantum Computing" class="border border-5 shadow rounded-circle border-white"/><br/><h6 class="my-3">Quantum Computing Mission</h6>	
 				</div>
 				
 				<div class="col-md-3 col-sm-12 text-center">
-					<img src="img/micro.png" alt="Microprocessor" class="border border-5 shadow rounded-circle border-white"/><br/><h6 class="my-3">Microprocessor and Strategic Electronics Mission</h6>
+					<img src="https://cdac.in/img/micro.png" alt="Microprocessor" class="border border-5 shadow rounded-circle border-white"/><br/><h6 class="my-3">Microprocessor and Strategic Electronics Mission</h6>
 				</div>
 				
 				<div class="col-md-3 col-sm-12 text-center">
-					<img src="img/ioe.png" alt="IoE, Dependable" class="border border-5 shadow rounded-circle border-white"/><br/><h6 class="my-3">IoE, Dependable and Secure Computing Mission</h6>
+					<img src="https://cdac.in/img/ioe.png" alt="IoE, Dependable" class="border border-5 shadow rounded-circle border-white"/><br/><h6 class="my-3">IoE, Dependable and Secure Computing Mission</h6>
 				</div>
 			 </div>
 		  </div>
 		  
-		  <div class="tab-pane fade" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab" tabindex="0">
+		  <div class="tab-pane fade p-5" style={{backgroundColor:'lightgray', width:"100"}} id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab" tabindex="0">
 		  	
 			<h4>About Us</h4>
 		  	
@@ -138,5 +139,76 @@ function Tabs(){
   
   );
 }
+
+    function Footer()
+    {
+      return(
+<div class="container-fluid">
+            <div class="row cp">
+              <div class="col-md-4 col-6 col-s-6 footer-pt aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+                <div class="pb-2 mb-4 pt-3 footer_title text-uppercase">
+                  <h5>Centers</h5>
+                </div>
+                <ul class="pb-4">
+                   <li><a href="/index.aspx?id=BL" class="tab-link-text">Bengaluru </a></li>
+                  <li><a href="/index.aspx?id=CH" class="tab-link-text">Chennai </a></li>
+                  <li><a href="/index.aspx?id=DL" class="tab-link-text">Delhi</a></li>
+                  <li><a href="/index.aspx?id=HY" class="tab-link-text">Hyderabad </a></li>
+                  <li><a href="/index.aspx?id=KL" class="tab-link-text">Kolkata</a></li>
+                  <li><a href="/index.aspx?id=ML" class="tab-link-text">Mohali</a></li>
+                  <li><a href="/index.aspx?id=MB" class="tab-link-text">Mumbai</a></li>
+                  <li><a href="/index.aspx?id=ND" class="tab-link-text">Noida </a></li>
+                  <li><a href="/index.aspx?id=PT" class="tab-link-text">Patna </a></li>
+                  <li><a href="/index.aspx?id=PN" class="tab-link-text">Pune </a></li>
+                  <li><a href="/index.aspx?id=SL" class="tab-link-text">Silchar</a></li>
+                  <li><a href="/index.aspx?id=TVM" class="tab-link-text">Thiruvananthapuram</a></li>
+                </ul>
+              </div>
+
+              <div class="col-md-4 col-6 col-s-6 footer-pt aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+                <div class="pb-2 mb-4 pt-3 footer_title text-uppercase">
+                  <h5>Links</h5>
+                </div>
+               <ul class="pb-4">
+                  <li><a href="/index.aspx?id=about" class="tab-link-text">About Us</a></li>
+                  <li><a href="/index.aspx?id=products_services" class="tab-link-text">Products &amp; Services</a></li>
+                  <li><a href="/index.aspx?id=research" class="tab-link-text">R&amp;D </a></li>
+                  <li><a href="/index.aspx?id=career" class="tab-link-text">Careers</a></li>
+                  <li><a href="/index.aspx?id=tenders" class="tab-link-text">Tenders</a></li>
+                  <li><a href="/index.aspx?id=news" class="tab-link-text">Press Kit</a></li>
+                  <li><a href="/index.aspx?id=audiov" class="tab-link-text">Video Gallery</a></li>
+                  <li><a href="/index.aspx?id=events" class="tab-link-text">Events</a></li>
+                  <li><a href="/index.aspx?id=Awards" class="tab-link-text">Awards</a></li>
+                  <li><a href="/index.aspx?id=download" class="tab-link-text">Downloads</a></li>
+                  <li><a href="/index.aspx?id=cdac_achievements" class="tab-link-text">Achievements</a></li>
+                  <li><a href="/index.aspx?id=alliance" class="tab-link-text">Alliance</a></li>
+                  
+                </ul>
+              </div>
+
+              <div class="col-md-4 col-12 col-s-12 footer-pt aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+                <div class="pb-2 mb-4 pt-3 footer_title text-uppercase">
+                  <h5>Contact Us</h5>
+                </div>
+                <div class="pb-4">
+                  <a href="https://goo.gl/maps/Ee1Yg7QBgMSqbTat9" onclick="return external_link();" target="_blank"><img src="https://cdac.in/img/map.jpg" class="img-fluid border shadow"/></a>
+                  <p class="py-3"> <strong>Centre for Development of Advanced Computing</strong><br/>
+                    <strong>C-DAC Innovation Park</strong>,<br/>
+                    Panchavati, Pashan,
+                    Pune - 411 008, Maharashtra (India)<br/>
+                    Phone: +91-20-25503100<br/>
+                    Fax: +91-20-25503131
+                  </p>
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </div>
+      );
+    }          
+
 
 export default Home;
