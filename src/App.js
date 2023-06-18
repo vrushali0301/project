@@ -49,19 +49,22 @@ function App() {
                 </li>
                 <li className="nav-item dropdown">
             <Link className="nav-link dropdown-toggle" to="#" id="AdminDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-             Admin Login
+             Admin
             </Link>
             <ul className="dropdown-menu" aria-labelledby="AdminDropdown">
               <li>
-                <Link className="dropdown-item" to="/pgdac">Staff Register</Link>
+                <Link className="dropdown-item" to="/pgdac">Admin Register</Link>
               </li>
               <li>
-                <Link className="dropdown-item" to="/pgdbda">Student Register</Link>
+                <Link className="dropdown-item" to="/pgdbda">Admin Login</Link>
               </li>
             </ul>
           </li>
           <li className="nav-item ">
-              <Link className="nav-link" style={{display:"flex", justifyContent:"end"}} to="/logout">Logout</Link>
+              <Link className="nav-link" to="/Contactus">Contact Us</Link>
+            </li>
+          <li className="nav-item ">
+              <Link className="nav-link" to="/logout">Logout</Link>
             </li>
               </ul>
             </div>
